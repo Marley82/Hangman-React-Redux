@@ -1,0 +1,128 @@
+html{
+  background-color: rgb(22, 86, 88);
+  color: rgb(211, 232, 232)
+}
+#header{
+  margin-top:-90px;
+  margin-bottom:-130px;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: rgb(211, 232, 232)
+}
+.App {
+  text-align: center;
+  font-size: large;
+}
+#image{
+  height:250px;
+  width:200px;
+  margin-top:-150px;
+  border-radius: 20%;
+}
+#wrongBut{
+  font-size:1.5rem;
+  width:27px;
+  height:33px;
+  font-weight: 600;
+  background-color: crimson;
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+#keyboard{
+  padding-top: 1rem;
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+button{
+  font-size:3rem;
+  font-weight:650;
+  justify-content: center;
+  width: 55px;
+  height: 60px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  background-color: rgb(140, 202, 53);
+  color: rgb(211, 232, 232);
+  border-radius: 20%;
+}
+button:disabled{
+  width: 55px;
+  height: 60px;
+  /* padding: 1rem; */
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  background-color: rgb(22, 86, 88);
+  color: rgb(22, 86, 88);
+  border-radius: 15%;
+  border: none;
+}
+#guesses{
+ text-align: right;
+ margin-right: 3%;
+ margin-top:3%;
+}
+#answer{
+  margin-bottom:-30px;
+}
+#wrong{
+  max-height: 0px;
+  margin-right:65%;
+  padding-bottom: 100px;
+}
+#alert{
+  color: crimson;
+}
+#letter{
+  background-color: rgb(22, 86, 88);
+  height:60px;
+  width:45px;
+  font-weight: 600;
+  border: none;
+}
+p{
+  font-size: 2rem;
+}
+#winner{
+  color: gold;
+  font-size: 3rem;
+  margin-right: 2.5%;
+}
+#fireworks{
+  height:210px;
+  place-items: center;
+  z-index: 10;
+  margin-bottom: -150px;
+  margin-top: -60px;
+}
+#mainnav{
+  margin-right:70%;
+  margin-bottom: -80px;
+  align-items: inline;
+}
+span{
+  font-size:2rem;
+  font-weight:650;
+  justify-content: center;
+  width: 101px;
+  height: 45px;
+  margin-left:5px;
+  margin-right:5px;
+  text-decoration: none;
+  display: inline-flex;
+  background-color: rgb(140, 202, 53);
+  color: rgb(211, 232, 232);
+  border-radius: 20%;
+}
+#link{
+  text-decoration: none;
+  color: rgb(211, 232, 232);
+}
+#help{
+  margin-top: 200px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
