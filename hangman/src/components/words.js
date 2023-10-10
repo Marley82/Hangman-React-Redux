@@ -8,7 +8,7 @@ const options = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': '6a37e00b62mshe11164381f41787p103505jsn8801d62f8506',
-		'X-RapidAPI-Host': 'free-random-word-generator-api.p.rapidapi.com'
+		'X-RapidAPI-Host': 'random-word-api.p.rapidapi.com'
 	}
 };
 const Answer = () => {
@@ -17,7 +17,7 @@ const Answer = () => {
   const word = useSelector(state => state.game.answer)
 
   useEffect(()=>{
-    fetch('https://free-random-word-generator-api.p.rapidapi.com/random-word', options)
+    fetch('https://random-word-api.p.rapidapi.com/get_word', options)
 	  .then(answer => answer.json())
 	  .then(answer => dispatch(fetchWord(answer)))
     .then(answer => console.log(answer))
