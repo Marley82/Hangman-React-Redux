@@ -55,7 +55,7 @@ export const gameSlice = createSlice({
             }
         },
         fetchWord: (state, action) =>{
-            state.answer = action.payload;
+            state.answer = action.payload.word;
         },
 },
 });
